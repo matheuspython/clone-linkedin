@@ -44,8 +44,13 @@ header.header .container .logo {
 
 .icons-links ul {
     display: flex;
-    width: 400px;
+    max-width: 900px;
+    width: 100%;
     justify-content: space-between;
+}
+
+.icons-links ul li {
+    margin: 0;
 }
 
 .icons-links ul li img {
@@ -64,15 +69,31 @@ header.header .container .logo {
     border-radius: 50%;
 }
 
-.solucoes-vagas ul li {
-    display: inline-block;
+@media screen and (max-width: 664px) {
+    .logo-input input {
+        width: 50px;
+    }
 }
 
-.solucoes-vagas ul li img {
-    display: flex;
-    text-align: center;
-    width: 30px;
-    height: 20px;
-    margin: 0 auto;
-    cursor: pointer;
+@media screen and (max-width: 528px) {
+    .logo-input input {
+        width: 30px;
+    }
+    .icons-links ul li a {
+        display: none;
+    }
+    .icons-links ul li {
+        margin: 0 5px;
+    }
+}
+
+@media screen and (max-width: 388px) {
+    @media screen and (max-width: 528px) {
+        .logo-input input {
+            width: 28px;
+        }
+        .icons-links ul li {
+            margin: 0 1px;
+        }
+    }
 }
