@@ -1,0 +1,78 @@
+header ul {
+    list-style-type: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+header.header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    height: 46px;
+}
+
+header.header .container {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.header .container .logo {
+    background-image: url('https://www.flaticon.com/svg/vstatic/svg/124/124011.svg?token=exp=1610999682~hmac=b6d8a60f9c75b89395e7a8c2694e9a94');
+    width: 30px;
+    height: 30px;
+}
+
+.logo-input {
+    display: flex;
+}
+
+.logo-input input {
+    border: 0;
+    border-radius: 4px;
+    margin-left: 5px;
+    padding-left: 8px;
+    background-color: rgb(242, 246, 246);
+}
+
+.icons-links ul {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.icons-links ul li img {
+    cursor: pointer;
+    height: 20px;
+    margin: 0 auto;
+    width: 30px;
+    display: block;
+}
+
+.icons-links ul li a {
+    font-size: 14px;
+}
+
+.eu {
+    border-radius: 50%;
+}
+
+.solucoes-vagas ul li {
+    display: inline-block;
+}
+
+.solucoes-vagas ul li img {
+    display: flex;
+    text-align: center;
+    width: 30px;
+    height: 20px;
+    margin: 0 auto;
+    cursor: pointer;
+}
