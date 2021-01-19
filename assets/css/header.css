@@ -25,7 +25,7 @@ header.header .container {
 }
 
 header.header .container .logo {
-    background-image: url('https://www.flaticon.com/svg/vstatic/svg/124/124011.svg?token=exp=1610999682~hmac=b6d8a60f9c75b89395e7a8c2694e9a94');
+    background-image: url('../images/linkedin.svg');
     width: 30px;
     height: 30px;
 }
