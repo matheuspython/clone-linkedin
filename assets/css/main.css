@@ -1,0 +1,12 @@
+main .container ul {
+    list-style-type: none;
+}
+
+main .container {
+    padding-top: 50px;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+}
